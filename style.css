@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #3d4d55;
+}
+
+            /* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#a3b4ebc5, #08549b);
+    border-radius: 50px;
+}
+
+nav {
+    margin: 1em;
+    border-radius: 10px;
+}
+.dropdown-hover{
+    background-color: bisque;
+}
+.dropdown-hover a:hover{
+    background-color: #8ca6b4;
+}
+
+.hero-img-siraj {
+    width: 80%;
+    height: 80%;
+    margin-top: 3em;
+    border: 10px solid rgba(4, 106, 146, 0.904);
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.banner {
+    background-color: #3d4d55;
+    color: white;
+}
+
+.hero-section {
+    align-items: center;
+    justify-content: center;
+    /* text-align: centerf; */
+}
+.hero-text{
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva;
+}
+
+@media screen and (max-width:769px){
+    .hero-text{
+        font-size: 1.2em
+    }
+    .hero-heading{
+        font-size: 2.2rem;
+    }
+    
+    .banner{
+        align-items: center;
+    }
+}
+.hero-sec-hr{
+    border: 2px solid rgba(0, 0, 0, 0.295); 
+    box-shadow: rgb(245, 244, 244);
+    margin-top: 30px;
+
+}
+
+.h1-experience{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    font-size: 3rem;
+    background-color: #1f4a5f;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-siraj-experience{
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 90%;
+    height: 90%;
+    border: 5px solid rgba(0, 0, 0, 0.904);
+}
+
+.About-heading{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #9fd4ee;
+}
+.about-para{
+    color: #3b7c9eb6;
+}
+.about-para :first-child{
+    
+    color: #c4deeb;
+    font-size: 1rem;
+}
+.h1-project{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    width: 100%;
+    font-weight: 400;
+    font-size: 3rem;
+    background-color: #1f4a5f;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.sec-section{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.card{
+    margin-bottom: 50px;
+}
+
+
+.footer-div{
+    background-color: #192024;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none; 
+}
